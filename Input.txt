@@ -1,9 +1,0 @@
-05946902219557872307726556031974600342265074322467977
-Traceback (most recent call last):
-  File "c:\Users\ethan\Documents\Python\Alphanumerical Encoder\Encoder.py", line 39, in <module>
-    file.write(str(Message))
-io.UnsupportedOperation: not writable
-PS C:\Users\ethan\Documents\Python\Alphanumerical Encoder> & C:/Users/ethan/AppData/Local/Microsoft/WindowsApps/python.exe "c:/Users/ethan/Documents/Python/Alphanumerical Encoder/Encoder.py"
-e onsthdi
-lycbagr
-405946902219557872307726556031974600342265074322467977
