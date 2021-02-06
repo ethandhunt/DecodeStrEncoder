@@ -1,5 +1,3 @@
-import math
-
 file = open("DecodeString.txt")
 string = file.read()
 file.close()
