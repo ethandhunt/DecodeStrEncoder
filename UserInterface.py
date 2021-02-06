@@ -32,13 +32,24 @@ def encode(string):
     print(f"{decodeString}\n{Message}")
 
 def decode(decodeString, Message):
-    
+    string = decodeString
+    Message = int(Message)
+
+    def digitsequence(a, b):
+        results = ""
+        while True:
+            results += string[(a % b)]
+            if a < b: break
+            a //= b
+        return results
+
+    print(digitsequence(Message, len(string)))
 
 while True:
-    userResponse = input("Encode or Decode")
-    if userResponse.lower == "encode":
-        break
-    elif userResponse.lower == "decode":
-        break
+    userResponse = input("Encode or Decode: ")
+    if userResponse == "Encode":
+        encode(input("Enter Message: "))
+    elif userResponse == "Decode":
+        decode(input("Enter Decode String: "), input("Enter Message: "))
     else:
         print("That Wasn't a Valid Response")
